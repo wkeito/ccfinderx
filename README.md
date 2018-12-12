@@ -1,19 +1,12 @@
 ccfinderx
 =========
 
-To compile the project on the development PC execute:
-1) autoreconf -i
-2) cd build
-3) ../configure
-4) make
+To compile and run the project on the development PC execute:
 
-
-Dependencies:
-autoconf, automake, build-essential, 
-libboost-all-dev,
-openjdk-7-dev, ant, 
-libicu4j-java, libswt-gtk-java, libtrove-java, libswt-cairo-gtk-3-jni
-
-To run the project execute:
-cd build
-gemx.sh
+1)sudo apt-get install autoconf automake build-essential libboost-all-dev ant libicu4j-java libtrove-java libswt-cairo-gtk-3-jni openjdk-7-jdk libtool
+2)autoreconf -i
+3)cd build
+4)../configure
+5)make
+6)chmod +x gemx.sh
+7)./gemx.sh
